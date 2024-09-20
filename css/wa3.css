@@ -45,3 +45,15 @@
   th {
     background-color: #f9bef5; /* Power puff girl pink */
   }
+  figure {
+    border: 1px solid #c8ccd1;
+    border-top: 0;
+    background-color: #f8f9fa;
+    font-size: 88.4%;
+    display: table-caption;
+    caption-side: bottom;
+    line-height: 1.4em;
+    word-break: break-word;
+    text-align: start;
+    padding: 0 6px 6px 6px;
+  }
