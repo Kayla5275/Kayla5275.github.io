@@ -10,16 +10,18 @@ body {
     background-color: #ccc;
   }
   /* Styles relating to the content of the card */
-  h2, p{
+  .card h2, .card p{
     margin: 0;
   }
 
-  h2{
+  .card header h2{
     font-size: 2em;
+    line-height: 1.5;
   }
 
   .card footer p{
     font-size: 1.5em;
+    line-height: 2;
   }
 
   .card article p{
@@ -62,3 +64,62 @@ body {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
   }
+
+
+  /*The styling for my card*/
+  /* Styles relating to the content of the card */
+  .my_card h2, .my_card p{
+    margin: 0;
+  }
+
+  .my_card header h2{
+    font-size: 2em;
+    line-height: 1.5;
+  }
+
+  .my_card footer p{
+    font-size: 1.5em;
+    line-height: 2;
+  }
+
+  .my_card article p{
+    padding: 1em;
+    color: #e3e1e1;
+  }
+
+  .my_card article{
+    height: 12em;
+    background-color: rgba(0,0,0,25%);
+  }
+  
+  .my_card article img {
+    max-height: 100%;
+    float: right;
+  }
+  /* Setting up the card container */
+  .my_card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgb(191, 0, 255);
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+
+  /*Styles specific to the header and footer*/
+
+  .my_card header, .my_card footer{
+    padding: 1em;
+    height: 3em;
+  }
+
+  .my_card header{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .my_card footer{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }
+
