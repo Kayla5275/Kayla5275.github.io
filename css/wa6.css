@@ -1,0 +1,35 @@
+.Background-img{
+    background-image: url(/wa/img/Hail_Mary_.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+/*The first overlay box and text*/
+.overlay{
+    position: relative;
+    height: 10em;
+    width: 10em;
+    background-color: gold;
+    border: 2px solid black;
+    top: 10%;
+    left: 80%;
+}
+.overlay p{
+    font-size: 40px;
+    padding: 1%;
+}
+/*The second overlay box and text*/
+.overlay-2{
+    position: relative;
+    height: 10em;
+    width: 40em;
+    background-color: gold;
+    border: 2px solid black;
+    top: 58%;
+    left: 5%;
+}
+.overlay-2 p{
+    font-size: 30px;
+    padding: 1%;
+}
