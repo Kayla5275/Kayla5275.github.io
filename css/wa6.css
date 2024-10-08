@@ -6,7 +6,7 @@
 }
 
 /*The first overlay box and text*/
-.overlay{
+.overlay_1{
     position: relative;
     height: 10em;
     width: 10em;
@@ -15,12 +15,12 @@
     top: 10%;
     left: 80%;
 }
-.overlay p{
+.overlay_1 p{
     font-size: 40px;
     padding: 1%;
 }
 /*The second overlay box and text*/
-.overlay-2{
+.overlay_2{
     position: relative;
     height: 10em;
     width: 40em;
@@ -29,7 +29,7 @@
     top: 58%;
     left: 5%;
 }
-.overlay-2 p{
+.overlay_2 p{
     font-size: 30px;
     padding: 1%;
 }
