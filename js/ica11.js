@@ -48,7 +48,7 @@ const number = document.getElementById('num');
 const reverse = document.querySelector('.Reverse');
 const newnum = document.querySelector('.newNum');
 
-const output = " BB ";
+const output = "Your number reversed is :BB:";
 
 newnum.addEventListener("click", REVERSE);
 
@@ -56,8 +56,9 @@ newnum.addEventListener("click", REVERSE);
 function REVERSE() {
     let newNumber = output;
     const regNum = number.value;
-    const num = parseFloat(regNum.toString().split('').reverse().join('')) * Math.sign(num);
-    newNumber = newNumber.replaceAll("BB",newNum);
+    let num = parseFloat(regNum.toString().split('').reverse().join('')) * Math.sign(num);
+    newNumber = newNumber.replaceAll(":BB:",num);
+
     newnum.textContent = newNumber;
     newnum.style.visibility = 'visible';
 }
