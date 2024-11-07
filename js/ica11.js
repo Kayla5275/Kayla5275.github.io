@@ -43,37 +43,5 @@ function ageoutput() {
     Age.textContent = newage;
     Age.style.visibility = 'visible';
 }
-// Reverse Number NOT DONE
-const number = document.getElementById('num');
-const reverse = document.querySelector('.Reverse');
-const newnum = document.querySelector('.newNum');
 
-const output = "Your number reversed is :BB:";
-
-newnum.addEventListener("click", REVERSE);
-
-
-function REVERSE() {
-    let newNumber = output;
-    const regNum = number.value;
-    let num = parseFloat(regNum.toString().split('').reverse().join('')) * Math.sign(num);
-    newNumber = newNumber.replaceAll(":BB:",num);
-
-    newnum.textContent = newNumber;
-    newnum.style.visibility = 'visible';
-}
-//Title Case Generator Code
-const sentence = document.getElementById('Sentence');
-const titleCase = document.querySelector('.titleCase');
-const TC = document.querySelector('.TCsentence');
-
-const printTC = " Lala "
-
-titleCase.addEventListener('click', PrintTC);
-
-function PrintTC(){
-    let Nline = printTC;
-    const Osentence = sentence.value
-
-}
 
