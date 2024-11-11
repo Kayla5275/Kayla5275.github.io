@@ -6,6 +6,7 @@ h1 {
   body {
     width: 640px;
     margin: 0 auto;
+    background-color: burlywood;
   }
   
   .full-img {

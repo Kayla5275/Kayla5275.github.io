@@ -6,20 +6,20 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 const images = [
-  '/wa/img/KJ-Simpson.jpeg',
-  '/wa/img/Michael-B-Jordan.jpeg',
-  '/wa/img/Rome-Flynn.jpg',
-  '/wa/img/Kelly-Oubre-Jr.jpg',
-  '/wa/img/Jalen-Green.jpeg'
+  '/wa/img/KJ-Simpson.png',
+  '/wa/img/MichaelBJordan.png',
+  '/wa/img/RomeFlynn.png',
+  '/wa/img/KelleyO.png',
+  '/wa/img/ChristopherMBrown.png'
 ];
 
 /* Declaring the alternative text for each image file */
 const alts = {
-  '/wa/img/KJ-Simpson.jpeg': 'Picture of basketball player KJ Simpson',
-  '/wa/img/Michael-B-Jordan.jpeg': 'Picture of actor Michael B Jordan',
-  '/wa/img/Rome-Flynn.jpg': 'Picture of actor Rome Flynn',
-  '/wa/img/Kelly-Oubre-Jr.jpg': 'Picture of basketball player Kelly Oubre Jr.',
-  '/wa/img/Jalen-Green.jpeg': 'Picture of basketball player Jalen Green'
+  '/wa/img/KJ-Simpson.png': 'Picture of basketball player KJ Simpson',
+  '/wa/img/MichaelBJordan.png': 'Picture of actor Michael B Jordan',
+  '/wa/img/RomeFlynn.png': 'Picture of actor Rome Flynn',
+  '/wa/img/KelleyO.png': 'Picture of basketball player Kelly Oubre Jr.',
+  '/wa/img/ChristopherMBrown.png': 'Picture of singer Chris Brown'
 };
 
 /* Looping through images */
