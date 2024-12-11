@@ -6,8 +6,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c34;
-    color: white;
+    background-image: url('/JS-Project/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
   }
   
   #game-container {
