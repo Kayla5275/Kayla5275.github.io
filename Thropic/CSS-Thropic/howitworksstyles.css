@@ -3,92 +3,90 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-  }
+}
   
-  a {
+a {
     text-decoration: none;
     color: inherit;
-  }
+}
   
-  ul {
+ul {
     list-style: none;
-  }
+}
   
-  /* Navbar */
-  .navbar {
+/* Navbar */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-  }
+}
   
-  .logo {
+.logo {
     font-size: 1.5rem;
     font-weight: bold;
-  }
+}
   
-  .nav-links {
+.nav-links {
     display: flex;
     gap: 1rem;
-  }
+}
   
-  .nav-links li {
+.nav-links li {
     margin: 0 0.5rem;
-  }
+}
   
-  .nav-links .cta {
+.nav-links .cta {
     background-color: #0070f3;
     color: #fff;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
-  }
+    border-radius: 15px;
+}
   
-  /* Hero Section */
-  .hero {
+
+/* Hero Section */
+.hero {
     text-align: center;
     padding: 4rem 2rem;
     background-color: #e0f7fa;
   }
   
-  .hero h1 {
+.hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-  }
+}
   
-  .hero p {
+.hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
   }
   
-  .hero-buttons .btn {
-    display: inline-block;
-    margin: 0 1rem;
-    padding: 0.75rem 1.5rem;
+.hero .btn {
     background-color: #0070f3;
     color: #fff;
+    padding: 0.75rem 1.5rem;
     border-radius: 4px;
-  }
-  
-  /* Sections */
-  section {
+}
+/* Sections */
+section {
     padding: 4rem 2rem;
     background-color: #fff;
     margin-bottom: 2rem;
-  }
+}
   
-  section h2 {
+section h2 {
     text-align: center;
     margin-bottom: 2rem;
-  }
+}
   
   /* Steps */
   .steps {
